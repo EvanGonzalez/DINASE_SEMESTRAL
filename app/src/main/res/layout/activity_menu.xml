@@ -41,7 +41,7 @@
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/btnEfemerides"
             android:layout_width="329dp"
             android:layout_height="109dp"
             android:layout_marginTop="10dp"
@@ -64,7 +64,7 @@
         app:layout_constraintVertical_bias="1.0">
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/btnDince"
             android:layout_width="329dp"
             android:layout_height="110dp"
             android:background="#00FFFFFF"
