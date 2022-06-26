@@ -11,7 +11,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView logoimagen;
+    ImageView logoImagen;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
         //animaciones
         Animation animation = AnimationUtils.loadAnimation(this, R.anim.desplazamiento_arriba);
 
-        logoimagen= (ImageView) findViewById(R.id.imglogo);
+        logoImagen= (ImageView) findViewById(R.id.imglogo);
 
-        logoimagen.setAnimation(animation);
+        logoImagen.setAnimation(animation);
 
         new Handler().postDelayed(new Runnable() {
             @Override
