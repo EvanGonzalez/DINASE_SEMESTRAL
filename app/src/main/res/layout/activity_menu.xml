@@ -9,32 +9,34 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="402dp"
+        android:layout_width="match_parent"
         android:layout_height="388dp"
         android:gravity="center"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.046">
+        app:layout_constraintVertical_bias="0.076">
 
 
         <ImageButton
             android:id="@+id/btneclipselunar"
-            android:layout_width="328dp"
+            android:layout_width="match_parent"
             android:layout_height="110dp"
             android:background="#00FFFFFF"
             android:scaleType="fitXY"
+            android:layout_margin="10dp"
             app:srcCompat="@drawable/ic_btneclipselunar"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/btneclipsolar"
-            android:layout_width="329dp"
+            android:layout_width="match_parent"
             android:layout_height="110dp"
             android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
             android:background="#00FFFFFF"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/boton1"
@@ -42,9 +44,10 @@
 
         <ImageButton
             android:id="@+id/btnEfemerides"
-            android:layout_width="329dp"
+            android:layout_width="match_parent"
             android:layout_height="109dp"
             android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
             android:background="#00FFFFFF"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/boton3"
@@ -52,7 +55,8 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="405dp"
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
         android:layout_height="134dp"
         android:gravity="center"
         android:orientation="vertical"
@@ -65,9 +69,10 @@
 
         <ImageButton
             android:id="@+id/btnDince"
-            android:layout_width="329dp"
+            android:layout_width="match_parent"
             android:layout_height="110dp"
             android:background="#00FFFFFF"
+            android:layout_margin="10dp"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/boton4"
             tools:ignore="SpeakableTextPresentCheck" />
