@@ -18,20 +18,11 @@ public class eclipseSolar extends AppCompatActivity {
         setContentView(R.layout.activity_eclipse_solar);
 
         spinner = (Spinner) findViewById(R.id.spin_desde);
-        /*
+
         String[] listado = getResources().getStringArray(R.array.prueba);
 
-        spinner.setOnItemSelectedListener((AdapterView.OnItemSelectedListener) this);
 
-        ArrayAdapter lista = new ArrayAdapter(this, android.R.layout.simple_spinner_item, listado);
-        lista.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-        spinner.setAdapter(lista);
-
-        */
-
-        ArrayAdapter<CharSequence> adapter= ArrayAdapter.createFromResource(this,R.array.prueba, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+       ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,listado);
         spinner.setAdapter(adapter);
 
 
