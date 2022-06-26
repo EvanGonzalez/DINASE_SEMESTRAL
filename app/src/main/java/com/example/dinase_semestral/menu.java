@@ -9,6 +9,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class menu extends AppCompatActivity {
     ImageButton eclipseSolar;
@@ -45,5 +46,7 @@ public class menu extends AppCompatActivity {
         Intent intent =new Intent(menu.this,eclipseSolar.class);
         finish();
         startActivity(intent);
+
+
     }
 }
