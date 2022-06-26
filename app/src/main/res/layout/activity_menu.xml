@@ -23,20 +23,18 @@
 
         <ImageButton
             android:id="@+id/btneclipselunar"
-            android:layout_width="match_parent"
+            android:layout_width="329dp"
             android:layout_height="110dp"
             android:background="#00FFFFFF"
             android:scaleType="fitXY"
-            android:layout_margin="10dp"
             app:srcCompat="@drawable/ic_btneclipselunar"
             tools:ignore="SpeakableTextPresentCheck" />
 
         <ImageButton
             android:id="@+id/btneclipsolar"
-            android:layout_width="match_parent"
+            android:layout_width="329dp"
             android:layout_height="110dp"
             android:layout_marginTop="10dp"
-            android:layout_margin="10dp"
             android:background="#00FFFFFF"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/boton1"
@@ -44,10 +42,9 @@
 
         <ImageButton
             android:id="@+id/btnEfemerides"
-            android:layout_width="match_parent"
-            android:layout_height="109dp"
+            android:layout_width="329dp"
+            android:layout_height="110dp"
             android:layout_marginTop="10dp"
-            android:layout_margin="10dp"
             android:background="#00FFFFFF"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/boton3"
@@ -69,10 +66,9 @@
 
         <ImageButton
             android:id="@+id/btnDince"
-            android:layout_width="match_parent"
+            android:layout_width="329dp"
             android:layout_height="110dp"
             android:background="#00FFFFFF"
-            android:layout_margin="10dp"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/boton4"
             tools:ignore="SpeakableTextPresentCheck" />
