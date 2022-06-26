@@ -15,7 +15,7 @@ public class eclipseSolar extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_eclipse_solar);
 
-
+        /*
         String[] listado = getResources().getStringArray(R.array.prueba);
         spinner = (Spinner) findViewById(R.id.spin_desde);
         spinner.setOnItemSelectedListener((AdapterView.OnItemSelectedListener) this);
@@ -25,7 +25,7 @@ public class eclipseSolar extends AppCompatActivity {
 
         spinner.setAdapter(lista);
 
-
+        */
 
 
     }

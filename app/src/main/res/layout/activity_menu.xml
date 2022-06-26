@@ -35,9 +35,10 @@
             android:id="@+id/btneclipsolar"
             android:layout_width="match_parent"
             android:layout_height="110dp"
-            android:layout_marginTop="10dp"
             android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
+            android:onClick="eclipseSolar"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/boton1"
             tools:ignore="SpeakableTextPresentCheck" />

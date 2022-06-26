@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
@@ -36,7 +37,13 @@ public class menu extends AppCompatActivity {
         DINACE.setAnimation(animation3);
 
 
+
+
+    }
+
+    public void eclipseSolar (View view){
         Intent intent =new Intent(menu.this,eclipseSolar.class);
+        finish();
         startActivity(intent);
     }
 }
