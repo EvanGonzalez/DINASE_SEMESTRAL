@@ -2,6 +2,7 @@ package com.example.dinase_semestral;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -33,5 +34,9 @@ public class menu extends AppCompatActivity {
         eclipseLunar.setAnimation(animation2);
         efimerides.setAnimation(animation2);
         DINACE.setAnimation(animation3);
+
+
+        Intent intent =new Intent(menu.this,eclipseSolar.class);
+        startActivity(intent);
     }
 }
