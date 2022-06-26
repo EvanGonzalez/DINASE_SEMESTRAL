@@ -7,31 +7,45 @@
     tools:context=".eclipseSolar">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
         android:layout_width="384dp"
         android:layout_height="173dp"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.592"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.046" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="155dp"
         android:layout_height="60dp"
         android:text="Ver"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="622dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spin_desde"
         android:layout_width="359dp"
         android:layout_height="61dp"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="274dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.377" />
 
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="349dp"
         android:layout_height="64dp"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="382dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:spinnerMode="dropdown"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
