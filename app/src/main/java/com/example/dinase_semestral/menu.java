@@ -38,20 +38,28 @@ public class menu extends AppCompatActivity {
         efimerides.setAnimation(animation2);
         DINACE.setAnimation(animation3);
 
+
+        eclipseSolar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(menu.this,eclipseSolar.class);
+                finish();
+                startActivity(intent);
+            }
+        });
+
+        DINACE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent =new Intent(menu.this,webDinace.class);
+                finish();
+                startActivity(intent);
+            }
+        });
+
     }
 
-    public void eclipseSolar (View view){
-        Intent intent =new Intent(menu.this,eclipseSolar.class);
-        finish();
-        startActivity(intent);
-
-    }
 
 
-    public void paginaWeb (View view){
-        Intent intent =new Intent(menu.this,webDinace.class);
-        finish();
-        startActivity(intent);
 
-    }
 }
