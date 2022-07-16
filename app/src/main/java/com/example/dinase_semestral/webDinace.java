@@ -11,7 +11,7 @@ import android.webkit.WebViewClient;
 public class webDinace extends AppCompatActivity {
 
     WebView webView;
-    private String url="https://dinace.utp.ac.pa/";
+    String url="https://dinace.utp.ac.pa/";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -38,9 +38,6 @@ public class menu extends AppCompatActivity {
         efimerides.setAnimation(animation2);
         DINACE.setAnimation(animation3);
 
-
-
-
     }
 
     public void eclipseSolar (View view){
