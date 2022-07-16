@@ -20,6 +20,7 @@ public class eclipseSolar extends AppCompatActivity {
         setContentView(R.layout.activity_eclipse_solar);
 
         spinnerDesde = (Spinner) findViewById(R.id.spin_desde);
+        //cambio
         spinnerHasta = (Spinner) findViewById(R.id.spinnerHasta);
         String[] listadoDesde = getResources().getStringArray(R.array.Desde);
         String[] listadoHasta = getResources().getStringArray(R.array.Hasta);
