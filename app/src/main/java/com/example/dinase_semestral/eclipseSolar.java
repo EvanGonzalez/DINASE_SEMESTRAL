@@ -24,24 +24,20 @@ public class eclipseSolar extends AppCompatActivity {
 
         String[] listado = getResources().getStringArray(R.array.prueba);
 
+
        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item,listado);
        spinner.setAdapter(adapter);
 
- /*
        spinner.setOnItemClickListener(new AdapterView.OnItemClickListener() {
            @Override
            public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
                Toast.makeText(eclipseSolar.this,"Selecciono: "+listado[i],Toast.LENGTH_LONG).show();
-
                 Intent intent = new Intent(eclipseSolar.this,listaeclipse_Solar.class);
                 intent.putExtra("Fecha",listado[i]);
                 startActivity(intent);
 
-
-
            }
        });
-*/
-    }
 
+    }
 }
