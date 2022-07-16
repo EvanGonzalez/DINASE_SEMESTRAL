@@ -17,7 +17,7 @@ public class menu extends AppCompatActivity {
     ImageButton eclipseLunar;
     ImageButton efimerides;
     ImageButton DINACE;
-    private String url;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,22 +38,6 @@ public class menu extends AppCompatActivity {
         efimerides.setAnimation(animation2);
         DINACE.setAnimation(animation3);
 
-        url="https://dinace.utp.ac.pa/";
-
-        DINACE.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri uri = Uri.parse(url);
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
-
-            }
-        });
-
-
-
-
-
 
 
 
@@ -64,6 +48,13 @@ public class menu extends AppCompatActivity {
         finish();
         startActivity(intent);
 
+    }
+
+
+    public void paginaWeb (View view){
+        Intent intent =new Intent(menu.this,webDinace.class);
+        finish();
+        startActivity(intent);
 
     }
 }
