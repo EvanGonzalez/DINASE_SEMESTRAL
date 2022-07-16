@@ -3,6 +3,7 @@ package com.example.dinase_semestral;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -16,7 +17,7 @@ public class menu extends AppCompatActivity {
     ImageButton eclipseLunar;
     ImageButton efimerides;
     ImageButton DINACE;
-
+    private String url;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +37,22 @@ public class menu extends AppCompatActivity {
         eclipseLunar.setAnimation(animation2);
         efimerides.setAnimation(animation2);
         DINACE.setAnimation(animation3);
+
+        url="https://dinace.utp.ac.pa/";
+
+        DINACE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse(url);
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+
+            }
+        });
+
+
+
+
 
 
 
