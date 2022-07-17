@@ -16,6 +16,9 @@
         android:theme="@style/Theme.DINASE_SEMESTRAL"
         tools:targetApi="31">
         <activity
+            android:name=".efemerides"
+            android:exported="false" />
+        <activity
             android:name=".webDinace"
             android:exported="false"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />

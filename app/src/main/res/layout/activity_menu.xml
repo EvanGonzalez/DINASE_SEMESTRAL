@@ -47,9 +47,10 @@
             android:id="@+id/btnEfemerides"
             android:layout_width="match_parent"
             android:layout_height="109dp"
-            android:layout_marginTop="10dp"
             android:layout_margin="10dp"
+            android:layout_marginTop="10dp"
             android:background="#00FFFFFF"
+            android:onClick="efemeride"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/boton3"
             tools:ignore="SpeakableTextPresentCheck" />
@@ -72,8 +73,9 @@
             android:id="@+id/btnDince"
             android:layout_width="match_parent"
             android:layout_height="110dp"
-            android:background="#00FFFFFF"
             android:layout_margin="10dp"
+            android:background="#00FFFFFF"
+            android:onClick="paginaWeb"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/boton4"
             tools:ignore="SpeakableTextPresentCheck" />
